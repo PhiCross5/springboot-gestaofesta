@@ -17,4 +17,34 @@ public class Convidado implements Serializable{
 	private String nome;
 	
 	private Integer quantidadeAcompanhantes;
+
+	public Long getId() {
+		return Id;
+	}
+
+	public void setId(Long id) {
+		Id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Integer getQuantidadeAcompanhantes() {
+		return quantidadeAcompanhantes;
+	}
+
+	public void setQuantidadeAcompanhantes(Integer quantidadeAcompanhantes) {
+		this.quantidadeAcompanhantes = quantidadeAcompanhantes;
+	}
+
+	public static long getSerialversionuid() {
+		return SerialVersionUID;
+	}
+	
+	
 }
