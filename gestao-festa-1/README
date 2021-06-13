@@ -1,0 +1,6 @@
+P: Porque a página tem aparência diferente?
+R: a partir da versão 4.0.0 a aperência padrão do tema bootstrap mudou e o arquivo-tema foi unificado (não há mais "bootstrap-theme.min.css").
+
+P: Porque se dar ao trabalho de usar uma versão diferente da do tutorial?
+R: Foi concluído em breve análise que lidar com dependências defasadas de quaisquer outros pacotes utilizados seria mais trabalhoso que ajustar para a nova versão.
+
