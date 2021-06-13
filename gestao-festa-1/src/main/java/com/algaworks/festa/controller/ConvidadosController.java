@@ -14,12 +14,12 @@ import com.algaworks.festa.repository.Convidados;
 import com.algaworks.festa.model.Convidado;
 
 @Controller
+@RequestMapping("/convidados")
 public class ConvidadosController {
 	@Autowired
 	private Convidados convidados;
 	
 	
-	@RequestMapping("/convidados")
 	//mapear pedido '/convidados' para conteúdo da página 'ListaConvidados.html'
     @GetMapping
     public ModelAndView listar() {
