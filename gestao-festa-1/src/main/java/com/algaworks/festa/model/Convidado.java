@@ -5,13 +5,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+
+
 @Entity
 public class Convidado implements Serializable{
 
 	private static final long SerialVersionUID=1L;
 	
 	@Id
-	@GeneratedValue
+	@GeneratedValue(generator="Increment")
+	//@GenerationType(name="increment", strategy="increment")
 	private Long Id;
 	
 	private String nome;
